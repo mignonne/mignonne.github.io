@@ -1,0 +1,138 @@
+body {
+	font-family: Lato, sans-serif;
+	line-height: 1.4;
+	font-size: 18px;
+	background-image: url("../img/background.jpg");
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.main {
+	background-color: #CDCDCD;
+	display: block;
+	width: 1020px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+#manifesto {
+	background-color: #D1A319;
+	color: #FFFFFF;
+	width: 1020px;
+	display: block;
+	padding: 60px 0;
+	text-align: center;
+	line-height: 70px;
+}
+
+#typography {
+	background-color: #B6B6B6;
+	width: 1020px;
+	padding: 150px 0;
+	display: block;
+	background-image: url("../img/typography.jpg");
+}
+
+#blog { 
+	background-color: #D1A319;
+	width: 1020px;
+	padding: 20px 0;
+	display: block;
+	text-align: center;
+	text-indent: 40px 0;
+}
+
+#type {
+	width: 600px;
+	text-align: left;
+	padding-left: 200px;
+	padding-right: 100px;
+}
+
+#works {
+	width: 1020px;
+	padding: 100px 0;
+	display: block;
+	text-align: center;
+	background-image: url("../img/workssml.jpg");
+}
+
+#examples{
+	background-color: #BABABA;
+	width: 1020px;
+	padding: 150px 0;
+	display: block;
+	background-image: url("../img/works.jpg");
+}
+
+aside article {
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 1px;
+}
+
+article {
+	padding: 20px 0;
+	margin-bottom: 5px;
+	background-color: #E3E3E3;
+	width: 400px;
+	text-align: justify;
+	text-decoration: none;
+	text-indent: 20px;
+	float: right;
+}
+
+article span {
+	background-color: #B6B6B6;
+	display: block;
+	padding: 22px 0;
+	margin-left: 22px;
+	text-align: left
+}
+
+header nav a {
+	text-decoration: none;
+	color: white;
+	background-color: #333;
+	font-size: 24px;
+	width: 255px;
+	display: block;
+	padding-top: 15px;
+	text-align: center;
+	padding-bottom: 10px;
+	float: left;
+	margin: auto 0;
+}
+
+.header {
+	display: block;
+	text-align: center;
+	padding-left: 317px;
+	margin: 0 auto;
+}
+
+header nav a:hover {
+	background-color: #8F6B00;
+}
+
+p {
+	text-align: left;
+}
+footer {
+	clear: both;
+}
+
+a {
+	color: #dd0000;
+	text-decoration: none;
+}
+footer nav a {
+	color: #dd0000;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 40px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	padding-left: 65px;
+	padding-right: 63px;
+}
