@@ -49,17 +49,48 @@ nav:hover a {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
+    letter-spacing: 1em;
 }
 
 #for {
     color: #0FA1A5;
-    letter-spacing: -.05em;
+    letter-spacing: -.07em;
 }
 
 #sale {
     font-family: "Jenna Sue", cursive;
     font-size: 1.25em;
+    letter-spacing: -.05em;
+    margin-left: .07em;
+    margin-right: .07em;
+}
+
+#price {
+    font-size: 1em;
+    letter-spacing: -.05em;
+    margin-left: .08em;
+}
+
+#owner {
+    color: #0FA1A5;
+    letter-spacing: -.07em;  
+}
+
+#directions {
+    color: #0FA1A5;
+    letter-spacing: -.01em;
+    font-size:  1em;   
+}
+
+#to {
+    color: #000000;
+    letter-spacing: -.07em;
+}
+
+div.satelite {
+    padding: 40px;
+    text-align: center;
 }
 
 h2 {
@@ -74,17 +105,26 @@ img {
 footer {
     background-color: #0FA1A5;
     color: #ffffff;
-    padding: 1.5em;
+    padding: -.05em;
 }
-
 h3 {
-    display: none;
+    font-size: .5em;
+    padding: -.07em;
 }
 
+h5 { 
+    font-size: 1em;
+    margin: 0 3em 3em;
+    padding: -.07em;
+}
 p {
     font-size: 14px;
 }
 
+section p {
+    margin: 0 5em 5em;
+    text-align: left;
+}
 .clearfix:after {
     display: block;
     content: "";
@@ -93,7 +133,10 @@ p {
     font-size: 0;
     visibility: hidden;
 }
+footer p {
+    padding: 0 1em 1em;
 
+}
 @media only screen and (min-width: 480px){
     body {
         font-size: 20px;
@@ -105,6 +148,10 @@ p {
     h2 {
         margin: 0 2em 2em;
     }
+    section p {
+        font-size: -.05em;
+    }
+
 }
 
 @media only screen and (min-width: 675px) {
@@ -145,7 +192,7 @@ p {
         font-size: 26px;
     }
     img {
-        width: 25%;
+        width: 50%;
     }
 }
 
