@@ -17,6 +17,14 @@ div {
 	background-color: #95a5a6;
 }
 
+#hero {
+	background-image: url("../images/shells.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	padding: 16% 14% 12% 20%;
+
+
 img {
 	padding: 40px;
 }
